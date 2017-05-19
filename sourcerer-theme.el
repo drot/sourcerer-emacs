@@ -637,7 +637,7 @@
    `(ivy-modified-buffer ((,class (:foreground ,yellow))))
    `(ivy-remote ((,class (:foreground ,blue))))
    `(ivy-subdir ((,class (:foreground ,orange))))
-   `(ivy-virtual ((,class (:foreground ,comment))))
+   `(ivy-virtual ((,class (:foreground ,purple))))
 
    ;; Jabber
    `(jabber-chat-prompt-local ((,class (:foreground ,yellow))))
@@ -895,6 +895,7 @@
   `(widget-button ((,class (:underline t))))
   `(widget-field ((,class (:background ,contrast-bg :box (:line-width 1 :color ,foreground)))))
 
+  ;; ansi-color
   (custom-theme-set-variables
    'sourcerer
    `(ansi-color-names-vector [,foreground ,red ,green ,yellow ,blue ,purple ,aqua ,background])))
