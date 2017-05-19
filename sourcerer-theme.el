@@ -64,7 +64,7 @@
    `(fringe ((,class (:background "#3A3A3A" :foreground "#878787"))))
    `(border ((,class (:background ,contrast-bg :foreground ,highlight))))
    `(vertical-border ((,class (:foreground ,contrast-bg))))
-   `(tooltip ((,class (:background ,contrast-bg))))
+   `(tooltip ((,class (:foreground ,foreground :background ,contrast-bg))))
    `(trailing-whitespace ((,class (:background ,orange :foreground ,yellow))))
 
    ;; font-lock
