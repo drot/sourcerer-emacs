@@ -637,7 +637,7 @@
    `(ivy-modified-buffer ((,class (:foreground ,yellow))))
    `(ivy-remote ((,class (:foreground ,blue))))
    `(ivy-subdir ((,class (:foreground ,orange))))
-   `(ivy-virtual ((,class (:foreground ,purple))))
+   `(ivy-virtual ((,class (:foreground ,comment))))
 
    ;; Jabber
    `(jabber-chat-prompt-local ((,class (:foreground ,yellow))))
@@ -883,6 +883,13 @@
   `(web-mode-filter-face ((,class (:foreground ,blue))))
   `(web-mode-html-attr-name-face ((,class (:foreground ,purple))))
   `(web-mode-html-tag-face ((,class (:foreground ,blue))))
+
+  ;; wgrep
+  `(wgrep-delete-face ((,class (:foreground ,red))))
+  `(wgrep-done-face ((,class (:foreground ,blue))))
+  `(wgrep-face ((,class (:foreground ,green))))
+  `(wgrep-file-face ((,class (:foreground ,comment))))
+  `(wgrep-reject-face ((,class (:foreground ,purple :weight bold))))
 
   ;; wid-edit
   `(widget-button ((,class (:underline t))))
